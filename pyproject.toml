@@ -1,0 +1,13 @@
+[project]
+name = "gorrilla"
+version = "0.1.0"
+description = "Web app to share out the parking spots that their owners leave free"
+license = "AGPL-3.0-or-later"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.17.1",
+]
