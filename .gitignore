@@ -1,0 +1,17 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environment created by uv
+.venv/
+
+# Secrets and local settings
+.env
+
+# Local development database
+db.sqlite3
+
+# Tool caches (pytest, Ruff, Hypothesis)
+.pytest_cache/
+.ruff_cache/
+.hypothesis/
